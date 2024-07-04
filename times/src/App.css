@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 11vh;
+  width: 98.5vw;
+  background-color:  #1a1a1a;
+  position: relative;
+}
+
+.nome h1 {
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+.nome {
+  margin-right: 1vw;
+}
+
+.titulo {
+  margin-left: 5vw;
+}
+
+.titulo h1 {
+  font-size: 3em;
+}
+
+.header img {
+  height: 8vh;
+}
+
+
+.header h1 {
+  text-align: right;
+}
+
+.lista {
+  list-style-type: none;
+}
+
+.timesTxt{
+  text-align: left;
+  margin-left: 1vw;
+}
+
+.nomeTime {
+  font-size: 20px;
+  margin-bottom: none;
+  font-weight:600;
+}
+
+.apelidoTime {
+  margin-top: -2.5vh;
+}
+
+.containerApi {
+  display: flex;
+}
